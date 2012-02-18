@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace jenkins_net_demo
+namespace JenkinsNetDemo
 {
     internal class Program
     {
