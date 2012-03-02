@@ -17,5 +17,11 @@ namespace DemoTests
     {
         Assert.AreEqual(1066, Program.Subtract(1100, 34));
     }
+
+    [Test]
+    public void Multiply()
+    {
+        Assert.AreEqual(100, Program.Multiply(10, 10));
+    }
   }
 }
