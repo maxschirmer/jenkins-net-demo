@@ -11,5 +11,11 @@ namespace DemoTests
     {
       Assert.AreEqual(42, Program.Add(40, 2));
     }
+
+    [Test]
+    public void Subtract()
+    {
+        Assert.AreEqual(1066, Program.Subtract(1100, 34));
+    }
   }
 }
