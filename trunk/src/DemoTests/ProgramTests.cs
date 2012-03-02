@@ -23,5 +23,11 @@ namespace DemoTests
     {
         Assert.AreEqual(100, Program.Multiply(10, 10));
     }
+
+    [Test]
+    public void Divide()
+    {
+        Assert.AreEqual(10, Program.Divide(100, 10));
+    }
   }
 }
