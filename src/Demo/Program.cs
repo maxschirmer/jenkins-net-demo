@@ -6,8 +6,6 @@ namespace Demo
     {
         private static void Main(string[] args)
         {
-            int i = 0;
-            string name;
             Console.Out.WriteLine("Hello Jenkins!");
         }
 
