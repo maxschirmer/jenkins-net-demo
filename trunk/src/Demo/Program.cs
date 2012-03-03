@@ -4,8 +4,11 @@ namespace Demo
 {
     public class Program
     {
+        //TODO: document this method
         private static void Main(string[] args)
         {
+            //hack: we really should not be doing this!
+            //fixme: lets find a better way of doing this.
             Console.Out.WriteLine("Hello Jenkins!");
         }
 
