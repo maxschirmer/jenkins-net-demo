@@ -12,7 +12,7 @@
     -->
     <visual.studio.solution>jenkins-net-demo.sln</visual.studio.solution>
     <visual.test.project.pattern>*.Tests</visual.test.project.pattern>
-    <dotnet.tool.version>4.0</dotnet.tool.version>
+    <dotnet.tool.version>3.5</dotnet.tool.version>
     <sonar.language>cs</sonar.language>
     <!-- Info added to check that the C# plugin works correctly with the SCM plugin -->
     <sonar.scm.url>scm:git:https://github.com/maxschirmer/jenkins-net-demo.git</sonar.scm.url>
@@ -41,7 +41,10 @@
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>sonar-maven-plugin</artifactId>
         <configuration>
-          <language>cs</language>
+          <toolVersion>3.5</toolVersion>
+                <buildConfigurations>Debug</buildConfigurations>
+                <rebuild>true</rebuild>
+            <language>cs</language>
         </configuration>
       </plugin>
     </plugins>
