@@ -10,12 +10,12 @@
     <!-- NOTE : the versions and parameters may be defined as properties 
        Prefer this option to the plugin specific configuration as it may be accessible to several plugins
     -->
-    <visual.studio.solution>Example.sln</visual.studio.solution>
+    <visual.studio.solution>jenkins-net-demo.sln</visual.studio.solution>
     <visual.test.project.pattern>*.Tests</visual.test.project.pattern>
-    <dotnet.tool.version>3.5</dotnet.tool.version>
+    <dotnet.tool.version>4.0</dotnet.tool.version>
     <sonar.language>cs</sonar.language>
     <!-- Info added to check that the C# plugin works correctly with the SCM plugin -->
-    <sonar.scm.url>scm:svn:http://svn.codehaus.org/sonar-plugins/trunk/dotnet/tools/dotnet-tools-commons/src/test/resources/solution/Example</sonar.scm.url>
+    <sonar.scm.url>scm:git:https://github.com/maxschirmer/jenkins-net-demo.git</sonar.scm.url>
   </properties>
   <build>
     <plugins>
